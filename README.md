@@ -199,8 +199,10 @@ packages.
 
 ## RPM package
 
-Packages for RHEL/Fedora and OpenSUSE are available via
+Packages for RHEL and OpenSUSE are available via
 [releases](https://github.com/abbbi/virtnbdbackup/releases).
+
+For official fedora packages, see the [fedora package search](https://packages.fedoraproject.org/search?query=virtnbdbackup)
 
 To create an RPM package from source by yourself you can follow the steps from
 the github [build
