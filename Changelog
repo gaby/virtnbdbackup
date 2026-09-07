@@ -1,3 +1,9 @@
+Version 2.54
+---------
+ * Running on python 3.6 caused TypeError: 'type' object is not subscriptable
+ exception: make guest.py backwarts compatible.
+
+
 Version 2.53
 ---------
  * Add "--json" option to virtnbdbackup, virtnbdrestore and virtnbdmap: emits
