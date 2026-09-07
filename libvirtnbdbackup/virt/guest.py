@@ -19,6 +19,7 @@ import json
 import time
 import base64
 import logging
+from typing import List
 import libvirt
 import libvirt_qemu
 
@@ -26,7 +27,7 @@ import libvirt_qemu
 def Exec(
     domObj: libvirt.virDomain,
     command: str,
-    args: list[str],
+    args: List[str],
     timeout: int = 30,
 ) -> str:
     """Execute command within VM using guest-agent"""
